@@ -2,8 +2,8 @@ package com.yuan.lambda.FunctionRef;
 
 /**
  * Lambda对 对象方法的引用
- * 格式===对象名::非静态方法名
- * 注意事项：与静态方法引用完全一致
+ * 格式=== new 对象名::非静态方法名
+ * 注意事项：先要实例化操作后，再像引用静态方法一样引用
  */
 @FunctionalInterface
 interface TestForObj {

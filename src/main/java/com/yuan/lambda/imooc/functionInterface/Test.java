@@ -2,7 +2,6 @@ package com.yuan.lambda.imooc.functionInterface;
 
 import com.yuan.lambda.imooc.functionInterface.impl.IMsgServiceImpl;
 import com.yuan.lambda.imooc.functionInterface.impl.IUserServiceImpl;
-
 import java.util.function.*;
 
 /**
