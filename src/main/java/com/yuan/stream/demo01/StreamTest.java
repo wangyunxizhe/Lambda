@@ -1,4 +1,4 @@
-package com.yuan.lambda.StreamTest;
+package com.yuan.stream.demo01;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * 1.Stream是元素的集合，这点让Stream看起来用些类似Iterator；
  * 2.可以支持顺序和并行的对原Stream进行汇聚的操作；
  */
-public class LambdaStream {
+public class StreamTest {
 
     public static void main(String[] args) {
         List<String> myList = Arrays.asList(new String[]{"BB", "CC", "AA"});
